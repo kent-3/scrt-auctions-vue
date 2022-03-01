@@ -1,6 +1,6 @@
 # Sealed Bid Auction 
 
-## Project Description and Step-by-Step Directions
+## Project Description and Walkthrough
 
 This is a multi-page application built with vue.js and griptape.js. It interacts with a recent instantiation of the classic [Sealed Bid Auction contract](https://github.com/baedrik/SCRT-sealed-bid-auction) on the pulsar-2 testnet of Secret Network.
 

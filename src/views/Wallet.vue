@@ -8,17 +8,15 @@
 
 <script lang="ts">
 import TokenBalance from '@/components/TokenBalance.vue'
-import { bootstrap, shutdown, EventCallback, onAccountAvailable }from '@stakeordie/griptape.js'
+// import { bootstrap, shutdown, EventCallback, onAccountAvailable }from '@stakeordie/griptape.js'
 
 export default {
   name: 'Wallet',
-  components: {
-    TokenBalance
-  },
-  setup(){
-    return{
-      bootstrap
-    }
-  }
+  components: { TokenBalance },
+  // setup(){
+  //   return{
+  //     bootstrap
+  //   }
+  // }
 }
 </script>

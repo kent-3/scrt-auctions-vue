@@ -7,8 +7,7 @@
 import CreateAuction from '@/components/CreateAuction.vue'
 
 export default {
-  components: { CreateAuction },
-    name: 'Create',
-    component: CreateAuction
+  name: 'Create',
+  components: { CreateAuction }
 }
 </script>

@@ -25,9 +25,9 @@ import {
   onAccountAvailable,
   EventCallback,
   coinConvert
-} from '@stakeordie/griptape.js'
-import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
-import tokenInfo from '../data/tokens.json'
+} from '@stakeordie/griptape.js';
+import { defineComponent, onMounted, onUnmounted, ref } from 'vue';
+import tokenInfo from '../data/tokens.json';
 
 interface Token {
   name: string;

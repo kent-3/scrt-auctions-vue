@@ -56,8 +56,6 @@ import {
   createContractClient,
   refContract,
   EventCallback,
-  isAccountAvailable,
-  onAccountAvailable,
   coinConvert,
   Snip20Contract,
   snip20Def,
@@ -83,7 +81,6 @@ export default defineComponent({
     const loading = ref<boolean>(false);
     const bid = ref<string | undefined>();
     const hasBids = ref<boolean | undefined>();
-    const isOwner = ref<boolean>(false);
 
     async function listActiveAuctions() {
       const { list_active_auctions: { active: result } }

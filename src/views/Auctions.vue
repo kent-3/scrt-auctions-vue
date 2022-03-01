@@ -11,9 +11,7 @@ import ActiveAuctions from "../components/ActiveAuctions.vue"
 
 export default {
   name: 'Auctions',
-  components: {
-    ActiveAuctions
-  }
+  components: { ActiveAuctions }
 }
 
 </script>

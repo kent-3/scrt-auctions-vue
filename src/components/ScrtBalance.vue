@@ -1,8 +1,5 @@
 <template>
-  <div>
-      <!-- <button @click="bootstrap">Connect</button> -->
-      <!-- <button @click="disconnect">Disconnect</button> -->
-  </div>
+  <div></div>
   <div id="key">
       <span v-if="loading">Loading...</span>
       <button v-else-if="!isConnected" @click="bootstrap">Connect</button>
@@ -11,15 +8,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
+import { defineComponent, onMounted, onUnmounted, ref } from 'vue';
 import { 
     getNativeCoinBalance,
     onAccountAvailable,
     bootstrap,
     shutdown,
     coinConvert
-} from '@stakeordie/griptape.js'
-import { EventCallback } from "@stakeordie/griptape.js"
+} from '@stakeordie/griptape.js';
+import { EventCallback } from "@stakeordie/griptape.js";
 
 export default defineComponent({
     setup() {

@@ -20,17 +20,17 @@
 <script lang="ts">
 import CreateViewingKey from '@/components/CreateViewingKey.vue'
 import ScrtBalance from './components/ScrtBalance.vue'
-import { bootstrap, shutdown, onAccountAvailable } from '@stakeordie/griptape.js'
+// import { bootstrap, shutdown, onAccountAvailable } from '@stakeordie/griptape.js'
 
 export default {
   components: {CreateViewingKey, ScrtBalance},
-  setup(){
-    return{
-      bootstrap,
-      shutdown,
-      onAccountAvailable,
-    }
-  }
+  // setup(){
+  //   return{
+  //     bootstrap,
+  //     shutdown,
+  //     onAccountAvailable,
+  //   }
+  // }
 }
 </script>
 

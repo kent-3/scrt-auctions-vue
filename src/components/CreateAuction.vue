@@ -39,12 +39,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
-import { CreateAuctionForm, auctionFactory } from '../contracts/auctions-factory'
-import tokens from '@/data/tokens.json'
+import { defineComponent, ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { CreateAuctionForm, auctionFactory } from '@/contracts/auctions-factory';
+import tokens from '@/data/tokens.json';
 import { createContractClient, refContract, Snip20Contract, snip20Def } from '@stakeordie/griptape.js';
 import { formatAmountforToken } from '@/utils';
-import { useRouter } from 'vue-router'
 
 export default defineComponent({
     setup() {
@@ -92,13 +92,15 @@ export default defineComponent({
             createSellTokenClient
         }
     }
-})
+});
 </script>
 
 <style scoped>
+
 form {
     display: grid;
     max-width: 250px;
     grid-row-gap: 12px;
 }
+
 </style>
