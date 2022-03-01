@@ -5,3 +5,11 @@
     <img src="/assets/images/KENT.png" alt="" style="width: 250px;">
   </div>
 </template>
+
+<script lang="ts">
+
+export default {
+  name: 'About'
+}
+
+</script>
