@@ -2,11 +2,11 @@
 
 ## Project Description and Step-by-Step Directions
 
-This is a multi-page application built with vue.js and griptape.js. It interacts with a recent instantiation of the [Classic Sealed Bid Auction contract](https://github.com/baedrik/SCRT-sealed-bid-auction 'thanks, Baedrik') on the pulsar-2 testnet of Secret Network.
+This is a multi-page application built with vue.js and griptape.js. It interacts with a recent instantiation of the classic [Sealed Bid Auction contract](https://github.com/baedrik/SCRT-sealed-bid-auction) on the pulsar-2 testnet of Secret Network.
 
 The entry point file is `main.ts`, which both mounts `App.vue` and connects the application to the griptape API, to allow queries to be made to Secret Network.
 
-`App.vue` sets up the site's navigation bar and overall style. `vue-router` is being used to implement link routing to the pages defined in /src/pages/.
+`App.vue` sets up the site's navigation bar and overall style. `vue-router` is being used to implement link routing to the pages defined in /views/. Most of the functionality of the application is contained within the /components/ and /contracts/.
 
 <!-- The Home page doesn't really do anything at the moment, but could contain some basic information, tutorials, and statistics in the future. -->
 
