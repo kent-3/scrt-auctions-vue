@@ -6,14 +6,9 @@
 </template>
 
 <script lang="ts">
-// import ScrtBalance from '@/components/ScrtBalance.vue'
-// import TokenBalance from '@/components/TokenBalance.vue'
 
 export default {
   name: 'Home',
-  // components: {
-  //   ScrtBalance,
-  //   TokenBalance
-  // }
 }
+
 </script>

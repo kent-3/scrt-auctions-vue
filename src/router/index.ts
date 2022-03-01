@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/Home.vue'
-import Wallet from '../views/Wallet.vue'
-import Auctions from '../views/Auctions.vue'
-import Create from '../views/Create.vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import Home from '../views/Home.vue';
+import Wallet from '../views/Wallet.vue';
+import Auctions from '../views/Auctions.vue';
+import Create from '../views/Create.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -38,12 +38,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Create',
     component: Create
   }
-  
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
-})
+});
 
-export default router
+export default router;
